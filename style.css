@@ -1,0 +1,234 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    color: white;
+    font-weight:lighter;
+    font-size: 30px;   
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-size: small;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    z-index: 2;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16%;
+    width: 50%;
+    height: 100%;
+}
+
+.nav-item{
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(218, 64, 218);
+}
+
+.background{
+    z-index: -1;
+    width: 100%;
+    margin-top: -10px;
+
+}
+
+
+.featshows{
+    z-index: 1;
+    height:3.5em; 
+    margin-top: -42%; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 9vw;
+    font-weight: lighter;
+}
+
+
+#date-header{
+    margin-top: 12%;
+    margin-bottom: 5% ;
+    background-color: rgb(245, 243, 243);
+    width: 87%;
+    height: 35px;
+    padding: 5px;
+    padding-left: 5%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    font-weight: lighter;
+    font-size:xx-large;
+}
+
+h4{
+    font-weight: lighter;  
+}
+
+.wrap-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+} 
+
+.wrapper{
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-shows{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: large;
+    width: 100%;
+}
+
+#show-image{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.show-info{
+    margin-top: -30px;
+}
+.read-more{
+    text-align: center;   
+}
+
+button{
+    height: 60px;
+    width: 140px;
+    margin-top: 20%;
+    background-color: #f4b609;
+    color: white;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+hr{
+   width: 93%;
+}
+
+footer{
+    margin-bottom: 0px;
+}
+
+.bottom{    
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+
+.map{
+    width: 300px;
+    padding: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mapimg{
+    width: 300px;
+}
+
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    padding-top: inherit;
+    justify-content: inherit;
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    padding-top: inherit;
+    justify-content: inherit;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    padding-top: inherit;
+    justify-content: inherit;
+}
+
+.foothead{
+    font-size: 2.5em;
+}
+
+.tiny{
+    margin: 3px;
+}
+
+.fa-brands, .fa-solid, .fa-regular{
+    color: #f4b609;
+}
